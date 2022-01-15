@@ -1,10 +1,6 @@
 <?php
 
 
-//! Con lo anterior llamamos al archivo, es como decir <scrip src="script.js"></scrip> // Luego, con el session_start es como decirle que tiene permiso para ejecutarse.
-
-
-
 //! 1) Para empezar, estableceremos las variables para los datos de la base de datos para poder iniciar.
     $host = "localhost"; // Nomnbre del host.
     $user = "root"; // Usuario.
@@ -15,7 +11,7 @@
 
     
 
-    $connection = mysqli_connect($host, $user, $psw, $db_name); //! Conexión con la base de datos, dando el host, el usuario y la contraseña en el caso de que haya. (El orden es importante).        
+    $connection = mysqli_connect($host, $user, $psw, $db_name); //! Conexión con la base de datos, dando el host, el usuario, la contraseña en el caso de que haya y nombre de la base de datos.
 
 
 
