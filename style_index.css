@@ -1,0 +1,138 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+body {
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.maincontainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 10px;
+    padding: 40px 40px;
+}
+
+.icon {
+
+    margin: 20px 0px;
+
+} 
+
+.signtitle {
+    font-size: 20px;
+}
+
+.email, .psw {
+    border: 1px solid rgb(213, 213, 213);
+    text-align: left;
+    height: 37px;
+    width: 360px;
+    font-size: 17px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-family: 'Noto Sans Display', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.subTitle {
+    margin: 3px 0px 3px 0px;
+}
+
+.title {
+    font-family: 'Noto Sans Display', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+.as {
+    text-decoration: none;
+    font-family: 'Noto Sans Display', sans-serif;
+    color: #1a73e8;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+.as:hover {
+    color: #1457af;
+
+}
+
+
+.pcom {
+    
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 14px;
+}
+
+
+.forgot {
+    display: inline-block;
+    margin-bottom: 60px;
+}
+
+.as1 {
+    display: inline-block;
+}
+
+
+
+.as2 {
+    
+    display: inline-block;
+    margin-top: 50px;
+}
+
+
+.sub {
+    height: 40px;
+    width: 80px;
+    border: 0px;
+    color:white;
+    background: #1a73e8;
+    font-family: 'Noto Sans Display', sans-serif;
+    border-radius: 5px;
+    margin-left: 160px;
+}
+
+.sub:hover {
+    background: #1e6ed6;
+}
+
+.p2{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.p2:hover{
+    color: #1b68cc;
+    background: #68a9ff23;
+}
+
+
+
+.footer {
+    margin: 5px auto;
+    display: flex;
+}
+
+.foot {
+    font-family: 'Noto Sans Display', sans-serif;
+    margin: 0px 30px;
+    color: black;
+    font-size: 17;
+}
